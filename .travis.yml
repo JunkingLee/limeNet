@@ -1,1 +1,9 @@
-Read me
+language: cpp
+compiler:
+- g++
+
+os:
+- linux
+before_script
+ - cmake
+script: make && make test
